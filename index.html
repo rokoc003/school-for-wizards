@@ -40,8 +40,8 @@
         </button>
         <div class="navar-nav collapse navbar-collapse" id="navLinks">
           <a href="#houses" class="nav-link text-info">Houses</a>
-          <a href="#map" class="nav-link text-info">Location</a>
           <a href="#alumni" class="nav-link text-info">Alumni</a>
+          <a href="#map" class="nav-link text-info">Location</a>
           <a href="#register" class="nav-link text-info">Register</a>
         </div>
       </nav>
@@ -138,14 +138,11 @@
         </div>
       </div>
 
-      <h1>Alumni</h1>
+      <h1 id="alumni">Alumni</h1>
       <div class="row justify-content-center">
         <div class="col-sm-12 col-md-3">
           <div class="card m-1">
-            <img
-              src="https://vignette.wikia.nocookie.net/harrypotter/images/8/8d/PromoHP7_Harry_Potter.jpg/revision/latest?cb=20140603201724"
-              class="card-img-top"
-            />
+            <img src="images/HarrPo.jpg" class="card-img-top" />
             <div class="card-body">
               <h4>Harry Potter</h4>
               <h5>Gryffindor</h5>
@@ -158,10 +155,7 @@
         </div>
         <div class="col-sm-12 col-md-3">
           <div class="card m-1">
-            <img
-              src="https://vignette.wikia.nocookie.net/harrypotter/images/4/49/Luna_profile.jpg/revision/latest/scale-to-width-down/673?cb=20160902165706"
-              class="card-img-top d-block w-100"
-            />
+            <img src="images/LunaLove.jpg" class="card-img-top d-block w-100" />
             <div class="card-body">
               <h4>Luna Lovegood</h4>
               <h5>Ravenclaw</h5>
@@ -175,10 +169,7 @@
         </div>
         <div class="col-sm-12 col-md-3">
           <div class="card m-1">
-            <img
-              src="https://vignette.wikia.nocookie.net/harrypotter/images/4/43/NewtonScamander-Profile-crop.png/revision/latest/scale-to-width-down/602?cb=20190609204955"
-              class="card-img-top d-block w-100"
-            />
+            <img src="images/NewtSca.jpg" class="card-img-top d-block w-100" />
             <div class="card-body">
               <h4>Newton Scamander</h4>
               <h5>Hufflepuff</h5>
@@ -192,6 +183,49 @@
           </div>
         </div>
       </div>
+      <h2 id="map" class="text-info">Where you can find us</h2>
+      <div class="embed-responsive embed-responsive-1by1 bg-dark">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.5840062396387!2d0.7284211157053962!3d50.94990585913141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df17eb054614e7%3A0x72724b306c0cfa4c!2sThe%20School%20of%20Wizards%20and%20Witches.%20World%20of%20Legend!5e0!3m2!1sen!2sde!4v1581695217854!5m2!1sen!2sde"
+          height="300"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+          class="embed-responsive-item"
+        >
+        </iframe>
+      </div>
+
+      <h2 id="register">Contact</h2>
+      <form action="mailto:roxane.kocem@yahoo.de">
+        <div class="form-group">
+          <label
+            >First Name<input
+              class="form-control"
+              type="text"
+              placeholder="First Name"
+          /></label>
+          <label>
+            Last Name
+            <input class="form-control" type="text" placeholder="Last Name" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>E-Mail</label
+          ><input class="form-control" type="email" required id="email" />
+        </div>
+        <div class="form-group">
+          <label>Male<br /><input type="radio" name="gender" /> </label>
+          <label> Female<br /><input type="radio" name="gender" /> </label>
+          <label
+            >Other<br />
+            <input type="radio" name="gender" />
+          </label>
+        </div>
+        <label>Why should we take you to our school?</label><br />
+        <textarea rows="7" cols="50"></textarea><br />
+        <button class="btn btn-info">Submit</button>
+      </form>
     </main>
 
     <!-- Optional JavaScript -->
