@@ -18,7 +18,7 @@
       <nav class="navbar navbar-expand-sm navbar-light">
         <a href="#" class="navbar-brand">
           <div
-            class="text-uppercase text-white-50 font-weight-bold border border-info"
+            class="text-uppercase text-white-50 font-weight-bold border border-info border-top-0 border-right-0"
           >
             <img
               src="https://cdn3.iconfinder.com/data/icons/halloween/512/magic_hat-512.png"
@@ -36,7 +36,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
         <div class="navar-nav collapse navbar-collapse" id="navLinks">
           <a href="#houses" class="nav-link text-info">Houses</a>
@@ -48,7 +48,11 @@
     </header>
 
     <main class="container">
-      <h1 id="houses" class="font-weight-bold text-center text-black-50">
+      <div><img src="images/Hogw.jpg" class="img-fluid" /></div>
+      <audio controls autoplay>
+        <source src="images/ThemeSong.mp3" />
+      </audio>
+      <h1 id="houses" class="font-weight-bold text-black-50">
         Houses
       </h1>
       <div class="carousel slide carousel-fade" data-ride="carousel">
@@ -101,9 +105,10 @@
       </div>
 
       <br />
+
+      <h1 class="font-weight-bold text-secondary">Why us?</h1>
       <div class="bg-dark">
-        <h1 class="font-weight-bold text-light">Why us?</h1>
-        <h2 class="display-4 text-light">Benefits</h2>
+        <h2 class="text-light"><em>Benefits</em></h2>
         <ul class="text-light">
           <li>The admission does'nt depend on if you are a muggle-born</li>
           <li>We have the biggest Quidditch Pitch</li>
@@ -138,28 +143,31 @@
         </div>
       </div>
 
-      <h1 id="alumni">Alumni</h1>
+      <h1 id="alumni" class="font-weight-bold text-black-50">
+        Alumni
+      </h1>
       <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-3">
-          <div class="card m-1">
+        <div class="col-sm-4 col-md-3">
+          <div class="card m-2 bg-dark">
             <img src="images/HarrPo.jpg" class="card-img-top" />
             <div class="card-body">
-              <h4>Harry Potter</h4>
-              <h5>Gryffindor</h5>
-              <p class="card-text">
+              <h4 class="text-info">Harry Potter</h4>
+              <h5 class="text-light"><em>Gryffindor</em></h5>
+              <p class="card-text text-info">
                 After defating Lord Voldemort he became an Auror and helped
-                reform and revolutionise the Ministry of Magic.
+                reform and revolutionise the Ministry of Magic. He later went on
+                to be Head of the Department of Magical Law Enforcement
               </p>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="card m-1">
+        <div class="col-sm-4 col-md-3">
+          <div class="card m-2 bg-dark">
             <img src="images/LunaLove.jpg" class="card-img-top d-block w-100" />
             <div class="card-body">
-              <h4>Luna Lovegood</h4>
-              <h5>Ravenclaw</h5>
-              <p class="card-text">
+              <h4 class="text-info">Luna Lovegood</h4>
+              <h5 class="text-light"><em>Ravenclaw</em></h5>
+              <p class="card-text text-info">
                 Mrs. Lovegood became a Magizoologist (magical naturalist)
                 discovering and classifying many species that had never been
                 encountered before.
@@ -167,13 +175,13 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="card m-1">
+        <div class="col-sm-4 col-lg-3">
+          <div class="card m-2 bg-dark">
             <img src="images/NewtSca.jpg" class="card-img-top d-block w-100" />
             <div class="card-body">
-              <h4>Newton Scamander</h4>
-              <h5>Hufflepuff</h5>
-              <span class="card-text">
+              <h4 class="text-info">Newton Scamander</h4>
+              <h5 class="text-light"><em>Hufflepuff</em></h5>
+              <span class="card-text text-info">
                 Mr. Scamander joined the Ministry of Magic, spending two years
                 in the Office for House-Elf Relocation before joining the Beast
                 Division. He wrote the best-seller Fantastic Beasts and Where to
@@ -183,20 +191,24 @@
           </div>
         </div>
       </div>
-      <h2 id="map" class="text-info">Where you can find us</h2>
+      <br />
+      <h2 id="map" class="font-weight-bold text-black-50">
+        Where you can find us
+      </h2>
       <div class="embed-responsive embed-responsive-1by1 bg-dark">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.5840062396387!2d0.7284211157053962!3d50.94990585913141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df17eb054614e7%3A0x72724b306c0cfa4c!2sThe%20School%20of%20Wizards%20and%20Witches.%20World%20of%20Legend!5e0!3m2!1sen!2sde!4v1581695217854!5m2!1sen!2sde"
           height="300"
           frameborder="0"
-          style="border:0;"
           allowfullscreen=""
           class="embed-responsive-item"
         >
         </iframe>
       </div>
-
-      <h2 id="register">Contact</h2>
+      <br />
+      <h2 id="register" class="font-weight-bold text-black-50">
+        Contact
+      </h2>
       <form action="mailto:roxane.kocem@yahoo.de">
         <div class="form-group">
           <label
