@@ -206,41 +206,106 @@
         </iframe>
       </div>
       <br />
+
       <h2 id="register" class="font-weight-bold text-black-50">
         Contact
       </h2>
-      <form action="mailto:roxane.kocem@yahoo.de">
-        <div class="form-group">
-          <label
-            >First Name<input
-              class="form-control"
-              type="text"
-              placeholder="First Name"
-          /></label>
-          <label>
-            Last Name
-            <input class="form-control" type="text" placeholder="Last Name" />
-          </label>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <form>
+              <div class="form-row">
+                <div class="form-group">
+                  <label
+                    >First Name<input class="form-control" type="text"
+                  /></label>
+                  <label
+                    >Last Name<input class="form-control" type="text"
+                  /></label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address"> Address</label>
+                <input
+                  class="form-control mw-100"
+                  id="address"
+                  placeholder="542 W. 15th Street"
+                  type="text"
+                />
+
+                <br />
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="postcode"
+                      >Post Code<input
+                        class="form-control"
+                        type="text"
+                        placeholder="12345"
+                        id="postcode"
+                    /></label>
+                    <label>City<input class="form-control" type="text"/></label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-lg-6 col-sm-6">
+                  <label for="country"
+                    >Country
+                    <select id="country" class="form-control">
+                      <option selected>Choose...</option>
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                      <option value="germany">Germany</option>
+                    </select></label
+                  >
+                </div>
+                <div class="col-lg-6 col-sm-6 ">
+                  <label>Male<br /><input type="radio" name="gender"/></label>
+                  <label>Female<br /><input type="radio" name="gender"/></label>
+                  <label>Other<br /><input type="radio" name="gender"/></label>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email"
+                    >E-Mail<input
+                      class="form-control"
+                      type="email"
+                      required
+                      id="email"
+                  /></label>
+                  <label
+                    >Password<input class="form-control" type="password"
+                  /></label>
+                </div>
+              </div>
+              <div class="form-row">
+                <textarea
+                  placeholder="Why should we take you to our school?"
+                  style="height:200px;"
+                  class="border border-black-50 rounded mb-16"
+                ></textarea>
+              </div>
+
+              <br />
+              <button class="btn btn-info">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="form-group">
-          <label>E-Mail</label
-          ><input class="form-control" type="email" required id="email" />
+        <div class="col-lg-6">
+          <img
+            height="100"
+            width="100"
+            class="img-thumbnail"
+            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20111017204834"
+          />
         </div>
-        <div class="form-group">
-          <label>Male<br /><input type="radio" name="gender" /> </label>
-          <label> Female<br /><input type="radio" name="gender" /> </label>
-          <label
-            >Other<br />
-            <input type="radio" name="gender" />
-          </label>
-        </div>
-        <label>Why should we take you to our school?</label><br />
-        <textarea rows="7" cols="50"></textarea><br />
-        <button class="btn btn-info">Submit</button>
-      </form>
-      <br />
-      <br />
+      </div>
     </main>
+
     <footer class="bg-dark text-info">
       <div class="container d-flex justify-content-center">
         <div class="text-uppercase text-white-50 font-weight-bold">
@@ -254,26 +319,28 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-xs-2">
+          <div class="col">
             <p>
               <a href="#" class="text-info">About</a>
             </p>
           </div>
-          <div class="col-lg-2 col-xs-2">
+          <div class="col">
             <p>
               <a href="#" class="text-info">Privacy</a>
             </p>
           </div>
-          <div class="col-lg-2 col-xs-2">
+          <div class="col">
             <p><a href="#" class="text-info">Careers</a></p>
           </div>
-          <div class="col-lg-2 col-xs-2">
+        </div>
+        <div class="row">
+          <div class="col">
             <p><a href="#" class="text-info">Press</a></p>
           </div>
-          <div class="col-lg-2 col-xs-2">
+          <div class="col">
             <p><a href="#" class="text-info">Support</a></p>
           </div>
-          <div class="col-lg-2 col-xs-2">
+          <div class="col">
             <p><a href="#" class="text-info">Help</a></p>
           </div>
         </div>
@@ -309,6 +376,16 @@
                 width="24"
                 height="24"
                 src="https://image.flaticon.com/icons/svg/1384/1384005.svg"
+              />
+            </a>
+            <a
+              img="https://www.twitter.com/getfandom"
+              class="wds-global-footer__link"
+            >
+              <img
+                width="24"
+                height="24"
+                src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png"
               />
             </a>
           </div>
