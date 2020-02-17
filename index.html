@@ -48,68 +48,96 @@
     </header>
 
     <main class="container">
-      <div><img src="images/Hogw.jpg" class="img-fluid" /></div>
+      <div class="card bg-dark text-light">
+        <img src="images/Hogw.jpg" class="card-img" />
+        <div class="card-img-overlay">
+          <h5 class="card-title text-center text-uppercase text-light">
+            Discover the magic of our school
+          </h5>
+          <p class="card-text text-center text-light">
+            Apply now!
+          </p>
+        </div>
+      </div>
       <audio controls autoplay>
-        <source src="images/ThemeSong.mp3" />
+        <source src="images/ThemeSong.mp3" type="audio/mpeg" />
       </audio>
-      <h1 id="houses" class="font-weight-bold text-black-50">
+
+      <h1 id="houses" class="font-weight-bold text-black-50 text-center">
         Houses
       </h1>
-      <div class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner text-center">
-          <div class="carousel-item active">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card" style="width: 17rem;">
             <img
               src="https://vignette.wikia.nocookie.net/harrypotter/images/b/b1/Gryffindor_ClearBG.png/revision/latest/scale-to-width-down/700?cb=20190222162949"
               alt="Gryffindor"
-              class="d-block w-50"
+              class="card-img-top bg-secondary"
             />
-            <span class="text-black-50">
-              "You might belong in Gryffindor, Where dwell the brave at heart,
-              Their daring, nerve, and chivalry Set Gryffindors apart"
-            </span>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title text-center text-dark-50">Gryffindor</h5>
+              <p class="card-text text-center text-dark-50">
+                "You might belong in Gryffindor, Where dwell the brave at heart,
+                Their daring, nerve, and chivalry Set Gryffindors apart"
+              </p>
+            </div>
           </div>
-          <div class="carousel-item">
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 17rem;">
             <img
               src="https://vignette.wikia.nocookie.net/harrypotter/images/0/06/Hufflepuff_ClearBG.png/revision/latest/scale-to-width-down/700?cb=20161020182518"
               alt="Hufflepuff"
-              class="d-block w-50"
+              class="card-img-top bg-secondary"
             />
-            <span class="text-black-50">
-              "You might belong in Hufflepuff, Where they are just and loyal,
-              Those patient Hufflepuffs are true, And unafraid of toil."
-            </span>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title text-center text-dark-50">Hufflepuff</h5>
+              <p class="card-text text-center text-dark-50">
+                "You might belong in Hufflepuff, Where they are just and loyal,
+                Those patient Hufflepuffs are true, And unafraid of toil."
+              </p>
+            </div>
           </div>
-          <div class="carousel-item">
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 17rem;">
             <img
               src="https://vignette.wikia.nocookie.net/harrypotter/images/4/4e/RavenclawCrest.png/revision/latest/scale-to-width-down/700?cb=20161020182442"
               alt="Ravenclaw"
-              class="d-block w-50"
+              class="card-img-top bg-secondary"
             />
-            <span class="text-black-50">
-              "You might belong in wise old Ravenclaw, If you've a ready mind,
-              Where those of wit and learning, Will always find their kind."
-            </span>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title text-center text-dark-50">Ravenclaw</h5>
+              <p class="card-text text-center text-bdark-50">
+                "You belong in wise Ravenclaw, If you've a ready mind, Where
+                those of wit and learning, Will always find their kind."
+              </p>
+            </div>
           </div>
-          <div class="carousel-item">
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 17rem;">
             <img
               src="https://vignette.wikia.nocookie.net/harrypotter/images/0/00/Slytherin_ClearBG.png/revision/latest/scale-to-width-down/700?cb=20161020182557"
               alt="Slytherin"
-              class="d-block w-50"
+              class="card-img-top bg-secondary"
             />
-            <span class="text-black-50">
-              "You might belong in Slytherin, You'll make your real friends,
-              Those cunning folk use any means, To achieve their ends."
-            </span>
+            <div class="card-body bg-secondary">
+              <h5 class="card-title text-center text-dark-50">Slytherin</h5>
+              <p class="card-text text-center text-dark-50">
+                "You might belong in Slytherin, You'll make your real friends,
+                Those cunning folk use any means, To achieve their ends."
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
       <br />
 
-      <h1 class="font-weight-bold text-secondary">Why us?</h1>
-      <div class="bg-dark">
-        <h2 class="text-light"><em>Benefits</em></h2>
-        <ul class="text-light">
+      <h1 class="font-weight-bold text-secondary text-center">Why us?</h1>
+      <div class="bg-secondary">
+        <h2 class="text-black-50 text-center"><em>Benefits</em></h2>
+        <ul class="text-black-50">
           <li>The admission does'nt depend on if you are a muggle-born</li>
           <li>We have the biggest Quidditch Pitch</li>
           <li>Delicious meals cooked by our house-elves</li>
@@ -117,40 +145,35 @@
           <li>Perfect connection to the train station</li>
         </ul>
         <hr class="my-4" />
-        <div class="container text-center bg-dark">
+        <div class="container text-center bg-secondary">
           <div class="row">
-            <div
-              class="d-flex justify-content-start mr-auto rounded-pill bg-dark"
-            >
+            <div class="d-flex justify-content-around mr-auto">
               <span class="text-info">38<br />Teachers</span>
             </div>
-            <div
-              class="d-flex justify-content-start mr-auto rounded-circle bg-dark"
-            >
+            <div class="d-flex justify-content-around mr-auto">
               <span class="text-info">142<br />Staircases</span>
             </div>
-            <div
-              class="d-flex justify-content-start mr-auto rounded-circle bg-dark"
-            >
+            <div class="d-flex justify-content-around  mr-auto">
               <span class="text-info">4<br />Houses</span>
             </div>
-            <div
-              class="d-flex justify-content-start mr-auto rounded-circle bg-dark"
-            >
-              <span class="text-info">26<br />activitys</span>
+            <div class="d-flex justify-content-around mr-auto">
+              <span class="text-info">6<br />Feasts</span>
+            </div>
+            <div class="d-flex justify-content-around mr-auto">
+              <span class="text-info">29<br />Creatures</span>
             </div>
           </div>
         </div>
       </div>
 
-      <h1 id="alumni" class="font-weight-bold text-black-50">
+      <h1 id="alumni" class="font-weight-bold text-black-50 text-center">
         Alumni
       </h1>
       <div class="row justify-content-center">
-        <div class="col-sm-4 col-md-3">
+        <div class="col-sm-4 col-lg-3">
           <div class="card m-2 bg-dark">
             <img src="images/HarrPo.jpg" class="card-img-top" />
-            <div class="card-body">
+            <div class="card-body text-center">
               <h4 class="text-info">Harry Potter</h4>
               <h5 class="text-light"><em>Gryffindor</em></h5>
               <p class="card-text text-info">
@@ -161,10 +184,10 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3">
+        <div class="col-sm-4 col-lg-3">
           <div class="card m-2 bg-dark">
             <img src="images/LunaLove.jpg" class="card-img-top d-block w-100" />
-            <div class="card-body">
+            <div class="card-body text-center">
               <h4 class="text-info">Luna Lovegood</h4>
               <h5 class="text-light"><em>Ravenclaw</em></h5>
               <p class="card-text text-info">
@@ -178,7 +201,7 @@
         <div class="col-sm-4 col-lg-3">
           <div class="card m-2 bg-dark">
             <img src="images/NewtSca.jpg" class="card-img-top d-block w-100" />
-            <div class="card-body">
+            <div class="card-body text-center">
               <h4 class="text-info">Newton Scamander</h4>
               <h5 class="text-light"><em>Hufflepuff</em></h5>
               <span class="card-text text-info">
@@ -192,7 +215,7 @@
         </div>
       </div>
       <br />
-      <h2 id="map" class="font-weight-bold text-black-50">
+      <h2 id="map" class="font-weight-bold text-black-50 text-center">
         Where you can find us
       </h2>
       <div class="embed-responsive embed-responsive-1by1 bg-dark">
@@ -207,10 +230,10 @@
       </div>
       <br />
 
-      <h2 id="register" class="font-weight-bold text-black-50">
-        Contact
-      </h2>
       <div class="container">
+        <h2 id="register" class="font-weight-bold text-black-50">
+          Contact
+        </h2>
         <div class="row">
           <div class="col-lg-6">
             <form>
@@ -224,17 +247,20 @@
                   /></label>
                 </div>
               </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="address"
+                    >Adress
+                    <input
+                      class="form-control"
+                      id="address"
+                      placeholder="542 W. 15th Street"
+                      type="text"
+                      style="width:385px;"
+                    />
+                  </label>
+                </div>
 
-              <div class="form-group">
-                <label for="address"> Address</label>
-                <input
-                  class="form-control mw-100"
-                  id="address"
-                  placeholder="542 W. 15th Street"
-                  type="text"
-                />
-
-                <br />
                 <div class="form-row">
                   <div class="form-group">
                     <label for="postcode"
@@ -261,13 +287,12 @@
                     </select></label
                   >
                 </div>
-                <div class="col-lg-6 col-sm-6 ">
+                <div class="col-lg-6 col-sm-6">
                   <label>Male<br /><input type="radio" name="gender"/></label>
                   <label>Female<br /><input type="radio" name="gender"/></label>
                   <label>Other<br /><input type="radio" name="gender"/></label>
                 </div>
               </div>
-
               <div class="form-row">
                 <div class="form-group">
                   <label for="email"
@@ -285,7 +310,7 @@
               <div class="form-row">
                 <textarea
                   placeholder="Why should we take you to our school?"
-                  style="height:200px;"
+                  style="width:400px;height:200px;"
                   class="border border-black-50 rounded mb-16"
                 ></textarea>
               </div>
@@ -293,15 +318,21 @@
               <br />
               <button class="btn btn-info">Submit</button>
             </form>
+            <br />
           </div>
-        </div>
-        <div class="col-lg-6">
-          <img
-            height="100"
-            width="100"
-            class="img-thumbnail"
-            src="https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20111017204834"
-          />
+          <div class="col-lg-6">
+            <img
+              class="img-thumbnail img-fluid"
+              src="https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/B1-background.jpg/revision/latest?cb=20111017204834"
+            />
+            <p>
+              The Great Hall is the main place where students receive their
+              meals and daily owl post. Three meals a day are served in this
+              hal. It has enough space to hold every student, as well as the
+              main staff and guests. Here you can meet each other, do homework
+              or maybe you play a game of magic chess?
+            </p>
+          </div>
         </div>
       </div>
     </main>
